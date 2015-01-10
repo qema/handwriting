@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		495BDF3A19A5715B00A8AEB2 /* SingleLayerNeuralClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 495BDF3819A5715B00A8AEB2 /* SingleLayerNeuralClassifier.cpp */; };
+		495BDF3D19A571D000A8AEB2 /* Neural.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 495BDF3B19A571D000A8AEB2 /* Neural.cpp */; };
+		495BDF4019A57F5800A8AEB2 /* SHLNeuralNetClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 495BDF3E19A57F5800A8AEB2 /* SHLNeuralNetClassifier.cpp */; };
 		496C1D0219A4530E00C69609 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496C1D0119A4530E00C69609 /* main.cpp */; };
+		496C1D0E19A4548400C69609 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496C1D0C19A4548400C69609 /* Model.cpp */; };
+		497F38E019A4629700636880 /* KNNClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 497F38DE19A4629700636880 /* KNNClassifier.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		495BDF3819A5715B00A8AEB2 /* SingleLayerNeuralClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleLayerNeuralClassifier.cpp; sourceTree = "<group>"; };
+		495BDF3919A5715B00A8AEB2 /* SingleLayerNeuralClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLayerNeuralClassifier.h; sourceTree = "<group>"; };
+		495BDF3B19A571D000A8AEB2 /* Neural.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Neural.cpp; sourceTree = "<group>"; };
+		495BDF3C19A571D000A8AEB2 /* Neural.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neural.h; sourceTree = "<group>"; };
+		495BDF3E19A57F5800A8AEB2 /* SHLNeuralNetClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SHLNeuralNetClassifier.cpp; sourceTree = "<group>"; };
+		495BDF3F19A57F5800A8AEB2 /* SHLNeuralNetClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLNeuralNetClassifier.h; sourceTree = "<group>"; };
+		495BDF4119A5A34600A8AEB2 /* smallset-images */ = {isa = PBXFileReference; lastKnownFileType = file; path = "smallset-images"; sourceTree = "<group>"; };
+		495BDF4219A5A34600A8AEB2 /* smallset-labels */ = {isa = PBXFileReference; lastKnownFileType = file; path = "smallset-labels"; sourceTree = "<group>"; };
 		496C1CFE19A4530E00C69609 /* HandwritingRecognition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HandwritingRecognition; sourceTree = BUILT_PRODUCTS_DIR; };
 		496C1D0119A4530E00C69609 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		496C1D0C19A4548400C69609 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
+		496C1D0D19A4548400C69609 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		496C1D0F19A4589A00C69609 /* test-images */ = {isa = PBXFileReference; lastKnownFileType = file; path = "test-images"; sourceTree = "<group>"; };
+		496C1D1019A4589A00C69609 /* test-labels */ = {isa = PBXFileReference; lastKnownFileType = file; path = "test-labels"; sourceTree = "<group>"; };
+		496C1D1119A4589A00C69609 /* train-images */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-images"; sourceTree = "<group>"; };
+		496C1D1219A4589A00C69609 /* train-labels */ = {isa = PBXFileReference; lastKnownFileType = file; path = "train-labels"; sourceTree = "<group>"; };
+		497F38DC19A4620100636880 /* Classifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classifier.h; sourceTree = "<group>"; };
+		497F38DE19A4629700636880 /* KNNClassifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KNNClassifier.cpp; sourceTree = "<group>"; };
+		497F38DF19A4629700636880 /* KNNClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNClassifier.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,23 @@
 			isa = PBXGroup;
 			children = (
 				496C1D0119A4530E00C69609 /* main.cpp */,
+				496C1D0C19A4548400C69609 /* Model.cpp */,
+				496C1D0D19A4548400C69609 /* Model.h */,
+				497F38DC19A4620100636880 /* Classifier.h */,
+				497F38DE19A4629700636880 /* KNNClassifier.cpp */,
+				497F38DF19A4629700636880 /* KNNClassifier.h */,
+				495BDF3B19A571D000A8AEB2 /* Neural.cpp */,
+				495BDF3C19A571D000A8AEB2 /* Neural.h */,
+				495BDF3E19A57F5800A8AEB2 /* SHLNeuralNetClassifier.cpp */,
+				495BDF3F19A57F5800A8AEB2 /* SHLNeuralNetClassifier.h */,
+				495BDF3819A5715B00A8AEB2 /* SingleLayerNeuralClassifier.cpp */,
+				495BDF3919A5715B00A8AEB2 /* SingleLayerNeuralClassifier.h */,
+				496C1D0F19A4589A00C69609 /* test-images */,
+				496C1D1019A4589A00C69609 /* test-labels */,
+				496C1D1119A4589A00C69609 /* train-images */,
+				496C1D1219A4589A00C69609 /* train-labels */,
+				495BDF4119A5A34600A8AEB2 /* smallset-images */,
+				495BDF4219A5A34600A8AEB2 /* smallset-labels */,
 			);
 			path = HandwritingRecognition;
 			sourceTree = "<group>";
@@ -119,6 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				496C1D0219A4530E00C69609 /* main.cpp in Sources */,
+				496C1D0E19A4548400C69609 /* Model.cpp in Sources */,
+				497F38E019A4629700636880 /* KNNClassifier.cpp in Sources */,
+				495BDF4019A57F5800A8AEB2 /* SHLNeuralNetClassifier.cpp in Sources */,
+				495BDF3D19A571D000A8AEB2 /* Neural.cpp in Sources */,
+				495BDF3A19A5715B00A8AEB2 /* SingleLayerNeuralClassifier.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +246,7 @@
 		496C1D0619A4530E00C69609 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = fast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -232,6 +277,7 @@
 				496C1D0719A4530E00C69609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
